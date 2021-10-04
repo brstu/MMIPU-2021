@@ -70,7 +70,7 @@ void Lin(double a, double b, double y1, double y2)
 {
 	double as;
 	int Nlin;
-	cout << "Input max count of discrete moment for NonLinearModel (n>1): ";
+	cout << "Input max count of discrete moment for LinearModel (n>1): ";
 	cin >> Nlin;
 	cout << "\t\t LinearModel" << endl;
 	for (int i = 0; i <= Nlin; ++i)
