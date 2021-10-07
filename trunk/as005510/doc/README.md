@@ -28,6 +28,7 @@
 
 Код программы :
 C++
+```
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -87,3 +88,4 @@ else
 cout << "Неверное значение " << endl;
 }
 }
+```
