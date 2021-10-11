@@ -40,6 +40,7 @@
 
 Код:
 
+<p style='margin-left: 10px'></p>
 let t = 0,
 n = 1n,
 f*t = 0,
