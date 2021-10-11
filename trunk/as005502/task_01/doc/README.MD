@@ -16,7 +16,7 @@
 
 <p align="right" >Группы АС-55</p>
 
-<p align="right" >Озарчук Н.В.</p>
+<p align="right" >Васильев А.С.</p>
 
 <p align="right" >Проверил:</p>
 
