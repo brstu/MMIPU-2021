@@ -1,4 +1,4 @@
-# Laboratory work No.1              
+# Laboratory work No.2              
               MINISTRY OF EDUCATION OF THE REPUBLIC OF BELARUS
                           EDUCATIONAL INSTITUTION 
                     «BREST STATE TECHNICAL UNIVERSITY»        
