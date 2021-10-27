@@ -11,8 +11,7 @@
 
 
 
-#### <p align="center">Лабораторная работа №1</p>
-#### <p align="center">Modeling controlled object (Моделирование управляемого объекта)</p>
+#### <p align="center">Лабораторная работа №2</p>
 
 
 
