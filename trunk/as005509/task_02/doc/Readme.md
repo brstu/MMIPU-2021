@@ -153,11 +153,11 @@ int main()
 ```
 *Линейная модель*
 
-![](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20211031173259262.png)
+![](https://github.com/slavexx/MMIPU-2021/trunk/as005509/task_02/doc/images/Linear.png)
 
 *Нелинейная модель*
 
-![](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20211031173641761.png)
+![](https://github.com/slavexx/MMIPU-2021/trunk/as005509/task_02/doc/images/Non_linear.png)
 
 ***Вывод:*** На C++ реализовал программу, моделирующую рассмотренный выше ПИД-регулятор.
 
