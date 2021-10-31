@@ -1,58 +1,102 @@
-#include <iostream>
-#include <math.h>
+#include<iostream>
+#include<math.h>
+#include <iomanip>
 #include <fstream>
-#define J 1
-#define a 0.5
-#define b 0.0001
-#define c 0.01
-
 using namespace std;
-double fun(double*, int);
-int main() {
-	double K, T, Td, T0, t, q0, q1, q2;
-	int k;
-	T = 0.1;
-	K = 1;
-	Td = 0.01;
-	T0 = 1;
-	t = 10;
-	k = 0.1;
-	q0 = K * (1 + Td / T0);
-	q1 = -K * (1 + 2 * Td / T0 - T0 / T);
-	q2 = K * Td / T0;
-	k = ceil(t / T0);
-	double* u = new double[k] {0};
-	double* y = new double[k] {0};
-	double* e = new double[k] {0};
-	double* del_u = new double[k] {0};
-	y[0] = 0;
-	e[0] = 0;
-	del_u[0] = q0 * e[0];
-	y[0] += del_u[0];
-
-	y[1] = fun(y, 1);
-	e[1] = y[1] - y[0];
-	del_u[1] = q0 * e[1] + q1 * e[0];
-	y[1] += del_u[1];
-	
-	for (int i = 2; i < k; i++) {
-		y[i] = fun(y, i);
-		e[i] = y[i] - y[i - 1];
-		del_u[i] = q0 * e[i] + q1 * e[i - 1] + q2 * e[i - 2];
-		y[i] += del_u[i];
-	}
-	ofstream file("out.txt");
-	for (int i = 0; i < k; i++) {
-		//cout << y[i] << ' ' << e[i] << ' ' << del_u[i] << endl;
-		file << i << " second:  " << y[i] << endl;
-	}
-	file.close();
-	delete[] u;
-	delete[] y;
-	delete[] e;
-	delete[] del_u;
+class Model
+{
+public:
+    virtual float expression(double heat, double y) = 0;
+};
+class Linear : public Model
+{
+private:
+    float a, b;
+public:
+    Linear(const float a, const float b)
+    {
+        this->a = a;
+        this->b = b;
+    }
+    float expression(double heat, double y) override
+    {
+        y = a * y + b * heat;
+        return y;
+    }
+};
+class Non_Linear : public Model
+{
+private:
+    float a, b, c, d;
+    double y_0 = 0, heat_0 = 0;
+public:
+    Non_Linear(float a, float b, float c, float d)
+    {
+        this->a = a;
+        this->b = b;
+        this->c = c;
+        this->d = d;
+    }
+    float expression(double heat, double y) override
+    {
+        double y_1;
+        y_1 = a * y - b * pow(y_0, 2) + c * heat + d * sin(heat_0);
+        y_0 = y;
+        heat_0 = heat;
+        return y_1;
+    }
+};
+class Controller
+{
+private:
+    double heat = 0;
+    double K, T, T_D, T_0;
+public:
+    Controller(const double K, const double T_0, const double T_D, const double T)
+    {
+        this->K = K;
+        this->T_0 = T_0;
+        this->T_D = T_D;
+        this->T = T;
+    }
+    double Heat(const double e, const double e_0 = 0, const double e_01 = 0)
+    {
+        double q_0, q_1, q_2;
+        q_0 = K * (1.0 + T_D / T_0);
+        q_1 = -K * (1 + 2.0 * T_D / T_0 - T_0 / T);
+        q_2 = K * T_D / T_0;
+        heat += q_0 * e + q_1 * e_0 + q_2 * e_01;
+        return heat;
+    }
+};
+void PID_System(const double w, Controller* ins, Model* m, double y, ofstream& file)
+{
+    double e, e_0, e_01, u;
+    e = 0.0,
+    e_0 = 0.0,
+    e_01 = 0.0;
+    u = 0;
+    for (int k = 0; k < 20; k++)
+    {
+        file << setw(10) << y << endl;
+        e = w - y;
+        u = ins->Heat(e, e_0, e_01);
+        y = m->expression(u, y);
+        e_01 = e_0;
+        e_0 = e;
+    }
 }
-
-double fun(double* y, int i) {
-	return (a * y[i - 1] - b * pow(y[i - 1], 2) + J + c * sin(J));
+int main()
+{
+    ofstream output("PID_out.txt");
+    output << setw(10) << "Linear:\n" << setw(10) << "Y\n\n";
+    Linear* m = new Linear(0.3, 0.1);
+    Controller* r = new Controller(0.1, 10, 50, 10);
+    PID_System(25, r, m, 0, output);
+    output << setw(10) << "\nNon linear:\n" << setw(10) << "Y\n\n";
+    Non_Linear* nl = new Non_Linear(0.3, 0.1, 0.1, 0.1);
+    Controller* nlr = new Controller(0.1, 10, 50, 10);
+    PID_System(25, nlr, nl, 0, output);
+    output.close();
+    return 0;
 }
