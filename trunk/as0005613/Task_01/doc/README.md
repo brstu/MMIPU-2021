@@ -31,7 +31,10 @@
 ![image1](https://user-images.githubusercontent.com/80480988/141429117-233fc58d-e390-47e2-9b31-ebdb86678107.png)
 ![image2](https://user-images.githubusercontent.com/80480988/141429135-b4cf9aed-1d46-4c53-ab28-33e6e69ff388.png)
 ![image3](https://user-images.githubusercontent.com/80480988/141429150-d0f0eb3f-d3db-4b24-8f31-45297ad22d64.png)
-![image4](https://user-images.g![image5](https://user-images.githubusercontent.com/80480988/141429183-c9dd27e3-0b24-45bd-9ffa-2af57956fad6.png)
-ithubusercontent.com/80480988/141429164-20a4a48f-bb72-42d2-b539-10b5c8921cdc.png)
+
+![image4](https://user-images.githubusercontent.com/80480988/141439995-e285946d-3fdb-4aed-9af6-ebd542facc89.png)
+
+![image5](https://user-images.githubusercontent.com/80480988/141440029-6c0f2efc-00d5-4076-9068-fd84e9adfeb4.png)
+
 
 Вывод: я освоила основные операции используемые при построении модели Simulink и  построила модель вычислительного процесса на примере оценки суммы ряда.
