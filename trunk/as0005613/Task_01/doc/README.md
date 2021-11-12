@@ -1,60 +1,37 @@
-# Laboratory work No.1              
-              MINISTRY OF EDUCATION OF THE REPUBLIC OF BELARUS
-                          EDUCATIONAL INSTITUTION 
-                    «BREST STATE TECHNICAL UNIVERSITY»        
-                            Department of IIT
+					Министерство образования Республики Беларусь
+						Учреждение образования
+				«Брестский государственный технический университет»
 
 
-                           Laboratory work No.1 
 
 
-	                                	Completed by the 3rd year student of 
-                                            Faculty of Electronic Information Systems
-	                                	the group AC-55 Evseenko E.A.
-                                 		Checked by Ivanuk D.S.
 
 
-                                 Brest 2021
+							Лабораторная работа №1
+							«Знакомство с Simulink»
 
-## Task 1. Modeling controlled object: 
-Write program (C++), which simulates object temperature.
 
-##### Code:
-```C++
-#include <iostream>
-#include <cmath>
-using namespace std;
+											Выполнил:
+											Студент ФЭИС
+											Группы АС-56
+											Линкевич Е.С.
+											Проверил:
+											Пролиско Е.Е.
 
-int main() 
-{
-	double a, b, c, d, y, yL, yNL, ut; 
-	int t;
 
-	cout << "Input time measured in seconds (discrete value not less than 1): "; cin >> t;
 
-	if (t > 0)
-	{
-		cout << "Input value of parameter a: "; cin >> a;
-		cout << "Input value of parameter b: "; cin >> b;
-		cout << "Input value of parameter c: "; cin >> c;
-		cout << "Input value of parameter d: "; cin >> d;
-		cout << "Input value of parameter ut: "; cin >> ut;
-		cout << "Input initial temperature of controlled object: ";
-		cin >> y;
-		yL = yNL = y;
-		cout << endl;
-		cout << "\t\t\Linear model\t\t||\t\t\tNonlinear model" << endl;
-		for (int i = 1; i <= t; i++) {
-			yL = a * yL + b * ut;
-			yNL = a * yNL - b * pow(yNL, 2) + c * ut + d * sin(ut);
-			cout << "y(" << i << ")" << "\t\t" << yL << "\t\t\t||\t\t\t" << yNL << endl;
-		}
-	}
 
-	else
-	{
-		cout << "Error. Input correct number." << endl;
-	}
-	return 0;
-}
-```
+							Брест 2021
+Лабораторная работа №1
+«Знакомство с Simulink»
+Цель:
+ 1) освоить основные операции используемые при построении модели Simulink (перенос блоков, соединение, настройка параметров, запуск); 
+2) построить модель вычислительного процесса на примере оценки суммы ряда.
+
+![image1](https://user-images.githubusercontent.com/80480988/141429117-233fc58d-e390-47e2-9b31-ebdb86678107.png)
+![image2](https://user-images.githubusercontent.com/80480988/141429135-b4cf9aed-1d46-4c53-ab28-33e6e69ff388.png)
+![image3](https://user-images.githubusercontent.com/80480988/141429150-d0f0eb3f-d3db-4b24-8f31-45297ad22d64.png)
+![image4](https://user-images.g![image5](https://user-images.githubusercontent.com/80480988/141429183-c9dd27e3-0b24-45bd-9ffa-2af57956fad6.png)
+ithubusercontent.com/80480988/141429164-20a4a48f-bb72-42d2-b539-10b5c8921cdc.png)
+
+Вывод: я освоила основные операции используемые при построении модели Simulink и  построила модель вычислительного процесса на примере оценки суммы ряда.
