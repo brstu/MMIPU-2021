@@ -47,7 +47,7 @@
 // Author      : Egor Evseenko
 // Version     :
 // Copyright   : Completed by Egor Evseenko, the group AS-55, FEIS 2021.
-// Description : Hello World in C++, Ansi-style
+// Description : 
 //============================================================================
 
 #include <iostream>
