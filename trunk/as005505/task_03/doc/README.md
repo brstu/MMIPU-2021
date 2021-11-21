@@ -23,7 +23,7 @@
 
 2. В среде **Eclipse** создать тестовый проект *"Hello world!"*, собрать его и продемонстрировать работоспособность на тестовом контроллере.
 
-###Ход работы:
+### Ход работы:
 <p align="center">
   <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/1.png">
 </p>
@@ -59,7 +59,7 @@ int main() {
 }
 ```
 
-###Результат:
+### Результат:
 <p align="center">
   <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/6.png">
 </p>
