@@ -25,19 +25,19 @@
 
 ###Ход работы:
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/1.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/1.png">
 </p>
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/2.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/2.png">
 </p>
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/3.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/3.png">
 </p>
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/4.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/4.png">
 </p>
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/5.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/5.png">
 </p>
 
 ### Исходный код:
@@ -61,5 +61,5 @@ int main() {
 
 ###Результат:
 <p align="center">
-  <img src ="https://github.com/morf1n/plcnext_screenshots/6.png">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/6.png">
 </p>
