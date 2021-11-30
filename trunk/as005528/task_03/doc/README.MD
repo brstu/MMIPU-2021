@@ -47,3 +47,7 @@ int main() {
 	return 0;
 }
 ```
+`Результат:
+<p align="center">
+  <img src ="https://github.com/daryakhmaryk/Pictures/blob/main/result.png">
+</p>`
