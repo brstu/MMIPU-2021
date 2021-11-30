@@ -47,5 +47,5 @@ int main() {
 	return 0;
 }
 ```
-# Результат:
+Результат:
 <img src ="https://github.com/daryakhmaryk/Pictures/blob/main/result.png">
