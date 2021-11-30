@@ -60,3 +60,7 @@ int main() {
 	return 0;
 }
 ```
+### Результат:
+<p align="center">
+  <img src ="https://github.com/Daria-Zink/Screen/blob/main/screenshot.png">
+</p>
