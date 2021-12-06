@@ -13,7 +13,7 @@
 
 	                                	Completed by the 3rd year student of 
                                                 Faculty of Electronic Information Systems
-	                                	the group AC-56 Orekhva N.A.
+	                                	the group AC-56 Punko H.A.
                                  		Checked by Ivanuk D.S.
 
 
