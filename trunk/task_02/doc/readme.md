@@ -160,3 +160,11 @@ cout << "----------------------------------------------------" << endl;
 <p align="center">
   <img src ="../src/images/2222.png">
 </p>
+
+<p align="center">
+  <img src ="../src/images/Linear.png">
+</p>
+
+<p align="center">
+  <img src ="../src/images/Non_Linear.png">
+</p>
