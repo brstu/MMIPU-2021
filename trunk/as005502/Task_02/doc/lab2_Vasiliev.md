@@ -152,7 +152,7 @@
 
 ```Результаты:```
 <img src="images/linear.jpg">
-<img src="images/non_linear.jpg">
+<img src="images/nonlinear.jpg">
 
 
 ```Вывод: В ходе выполнения лабораторной работы я создал программу на языке C ++, имитирующую работу ПИД-регулятора. ```                 
