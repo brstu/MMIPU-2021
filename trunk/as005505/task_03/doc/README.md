@@ -63,3 +63,6 @@ int main() {
 <p align="center">
   <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/6.png">
 </p>
+<p align="center">
+  <img src ="https://github.com/morf1n/plcnext_screenshots/blob/main/7.png">
+</p>
