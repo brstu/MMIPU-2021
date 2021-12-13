@@ -41,7 +41,7 @@
 ```C++
 //============================================================================
 // Name        : lab3.cpp
-// Author      : Ilya Chernookiy
+// Author      : Roman Senkevich
 // Version     :
 // Copyright   : 
 // Description : Hello World in C++, Ansi-style
@@ -57,3 +57,5 @@ int main() {
 ```
 
 ##### Results:
+
+![Снимок экрана 2021-12-13 114723](https://user-images.githubusercontent.com/84024788/145781766-da3dd62f-bf40-4ce7-aeab-f62be5c40563.png)
