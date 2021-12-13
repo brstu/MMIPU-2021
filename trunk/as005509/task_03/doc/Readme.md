@@ -56,7 +56,7 @@
 using namespace std;
 
 int main() {
-	cout << "Hello World frov Lepeshev Vyacheslav!" << endl;
+	cout << "Hola, World, from Lepeshev Vyacheslav!" << endl;
 	return 0;
 }
 ```
