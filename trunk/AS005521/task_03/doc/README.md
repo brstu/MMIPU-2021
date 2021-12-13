@@ -41,3 +41,4 @@ int main() {
 }
 ```
 
+Скриншот https://ibb.co/6Zb02NC
