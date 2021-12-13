@@ -41,4 +41,5 @@ int main() {
 }
 ```
 
-Скриншот https://ibb.co/6Zb02NC
+![123tar](https://user-images.githubusercontent.com/79850049/145782587-f2a42b0f-5e66-492b-8a1e-e5d787737929.png)
+
