@@ -65,4 +65,5 @@ int main() {
 
 
 ```
-                        
+Результат: 
+<img src="https://github.com/sergeymartynovich02/MMIPU-2021/blob/task%233/trunk/as005512/task_03/doc/martynlab3.png">
