@@ -63,7 +63,7 @@ int main() {
 
 *Результат*
 
-![](MMIPU-2021\trunk\as005509\task_03\doc\images\screenshot.png)
+<img src="images/screenshot.png">
 
 ***Вывод:*** написал проект, собрал и запусил его на тестовом контроллере.
 
