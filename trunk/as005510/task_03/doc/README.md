@@ -40,4 +40,6 @@ int main() {
 	cout << "Hello World!" << endl; // prints Hello World!
 	return 0;
 }
+
 ```
+<img src="https://github.com/Drunkensoul1/result/blob/main/Lifenets%20Egor%20lab3.png">
