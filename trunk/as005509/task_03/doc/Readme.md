@@ -63,7 +63,7 @@ int main() {
 
 *Результат*
 
-![](slavexx\MMIPU-2021\trunk\as005509\task_03\doc\images\screenshot.png)
+![](MMIPU-2021\trunk\as005509\task_03\doc\images\screenshot.png)
 
 ***Вывод:*** написал проект, собрал и запусил его на тестовом контроллере.
 
