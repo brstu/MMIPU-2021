@@ -56,11 +56,14 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	cout << "Zink dasha" << endl; // prints !!!Hello World!!!
 	return 0;
 }
 ```
 ### Результат:
 <p align="center">
   <img src ="https://github.com/Daria-Zink/Screen/blob/main/screenshot.png">
+</p>
+<p align="center">
+  <img src ="https://github.com/Daria-Zink/Screen/blob/main/rez.png">
 </p>
