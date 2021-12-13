@@ -57,3 +57,4 @@ int main() {
 ```
 Вывод: Я реализовал программу, которая работает с контроллером.
 
+[Image alt](https://github.com/{chanseya}/{https://github.com/brstu/MMIPU-2021.git}/raw/{fork}/{C:\Users\rahle\OneDrive\Рабочий стол\work\MMIPU-2}/8Xo7nbNle6M.jpg)
