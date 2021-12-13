@@ -63,6 +63,7 @@ int main() {
 	return 0;
 }
 
-
+![martynlab3](https://user-images.githubusercontent.com/79718674/145782756-73e6cbdb-ddbc-4b4e-8866-d8ba8b877cad.png)
+(trunk/as005512/task_03/doc/)
 ```
                         
