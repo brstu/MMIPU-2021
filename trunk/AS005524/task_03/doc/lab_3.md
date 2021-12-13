@@ -66,5 +66,6 @@ int main() {
   return 0;
 }
 ```
-         ![Снимок экрана 2021-12-13 114723](https://user-images.githubusercontent.com/84024788/145782175-fbe2d232-44ca-43f9-bbdf-d14ccf4e9973.png)
+![Снимок экрана 2021-12-13 114723](https://user-images.githubusercontent.com/84024788/145782287-59df0b7b-6747-428e-b5e7-6fefd3ba5f5f.png)
+
                
