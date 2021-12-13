@@ -65,5 +65,6 @@ int main() {
   cout << "Hello World!" << endl; // prints Hello World!
   return 0;
 }
-```
+```![Снимок экрана 2021-12-13 113604](https://user-images.githubusercontent.com/90598162/145780304-24eee527-ff82-450d-a12b-89c1a48f72be.png)
+
                         
