@@ -65,4 +65,5 @@ int main() {
 
 
 ```
-                        
+Результат:
+<img src="https://github.com/artemvilchuk/result/blob/main/ArtemVilchuk.png">
