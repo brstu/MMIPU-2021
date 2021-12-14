@@ -44,6 +44,6 @@ int main() {
 }
 ```
 
-## Выполнение на тестовом контроллере:
+# Тестовый контроллер:
 
 ![Screenshot LAB3](https://raw.githubusercontent.com/ozarchuk-nikita/MMIPU-2021/master/trunk/as005515/task_03/doc/Laba.jpg)
