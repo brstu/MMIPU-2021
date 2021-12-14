@@ -43,3 +43,7 @@ int main() {
 	return 0;
 }
 ```
+
+## Выполнение на тестовом контроллере:
+
+![Screenshot MarzanLAB3](https://raw.githubusercontent.com/ozarchuk-nikita/MMIPU-2021/master/trunk/as005515/task_03/doc/Laba.jpg)
