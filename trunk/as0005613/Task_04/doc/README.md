@@ -7,8 +7,8 @@
 
 
 
-							Лабораторная работа №3
-					«Модель системы с сложной передаточной функцией»
+							Лабораторная работа №4
+					«Математические модели информационных процессов и управления»
 
 
 											Выполнил:
@@ -22,22 +22,30 @@
 
 
 							Брест 2021
-Лабораторная работа №2
-«Модель системы с сложной передаточной функцией»
-Цель: освоить использование LTI-viewer.
-– подключите LTI-viewer к вашей системе;
-– получите основные характеристики системы (передаточную функцию, импульсную характеристику, амплитудно-частотную и фазо-частотные характеристики, диаграмму Найквиста, значение нулей и полюсов);
+Лабораторная работа №4
+«Математические модели информационных процессов и управления»
+Цель: научиться строить в Simulink модель системы с сложной структурой с обратными связями и эквивалентную ей передаточную функцию.
+Задание 1. Выполним структурную схему, сверяясь с методологическими указаниями.
 
-![1](https://user-images.githubusercontent.com/80480988/143672911-44a704af-977e-45b4-b2db-9a73a57352df.png)
+![1](https://user-images.githubusercontent.com/80480988/146726051-183227ab-41ca-4edc-a020-0537d1437e7b.png)
 
-![2](https://user-images.githubusercontent.com/80480988/143672915-65c932e8-aff2-4ee8-bc07-519c673a6b21.png)
+Задание 2: Получим блок с передаточной функцией эквивалентной передаточной функции исходной системы;
 
-![3](https://user-images.githubusercontent.com/80480988/143672919-16a52aee-fe45-4268-9124-a926aa0c0e26.png)
+![7](https://user-images.githubusercontent.com/80480988/146726098-0dae8a13-8930-4672-b8f9-040b5942ac0c.png)
 
-![4](https://user-images.githubusercontent.com/80480988/143672930-8df02357-7529-492a-80e6-34c51dc93e31.png)
+Задание 3: Покажем, что все характеристики и показатели сохраняются.
 
-![5](https://user-images.githubusercontent.com/80480988/143672933-fde477bb-6d80-4f44-99f3-c77ea281adca.png)
+![2](https://user-images.githubusercontent.com/80480988/146726161-9e271f0d-112a-4af0-b35d-477e8ea45f35.png)
+![3](https://user-images.githubusercontent.com/80480988/146726184-7429aeec-f224-4420-b968-f48fc207a3d3.png)
+![4](https://user-images.githubusercontent.com/80480988/146726193-93889bee-a077-49a2-86ba-8e48eefd42b3.png)
+![5](https://user-images.githubusercontent.com/80480988/146726210-02aa093d-dc39-407b-81eb-96a6b95f29e5.png)
+![6](https://user-images.githubusercontent.com/80480988/146726232-978aef34-530c-4f8c-94e2-30dc0e179800.png)
 
-![6](https://user-images.githubusercontent.com/80480988/143672937-252a5aec-754c-46f4-a62a-04302023fefa.png)
+![8](https://user-images.githubusercontent.com/80480988/146726254-5bc4da4d-7c0d-4db0-9968-5f47ce2f1b96.png)
+![9](https://user-images.githubusercontent.com/80480988/146726295-6d3193cf-1cf1-4f57-bfdd-3aceac63112c.png)
+![10](https://user-images.githubusercontent.com/80480988/146726308-2371ac7a-d56d-4d43-8492-a9ea3879486b.png)
+![11](https://user-images.githubusercontent.com/80480988/146726316-c97b2cd0-76bf-49c9-bdf5-b873fba3cff5.png)
+![12](https://user-images.githubusercontent.com/80480988/146726329-56e4f19f-4448-43b9-8746-2a8e8d90181f.png)
 
-Вывод: мы научились работать с LTI-viewer, в ходе работы изучили и получили основные характеристики системы.
+Все характерички и показатели практически совпадают.
+Вывод: мы научились строить в Simulink модель системы с сложной структурой с обратными связями и эквивалентную ей передаточную функцию.
